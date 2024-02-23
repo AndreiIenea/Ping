@@ -1,4 +1,5 @@
 import subprocess
+import time 
 
 def ping_website(website):
     try:
@@ -18,3 +19,5 @@ def ping_website(website):
 if __name__ == "__main__":
     website = input("Introduceți adresa website-ului pentru ping: ")
     ping_website(website)
+
+time.sleep(10)
